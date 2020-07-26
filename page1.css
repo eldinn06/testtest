@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-image:url(hacker.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.Header h3 a{
+ float: left;
+ font-size: 20px; 
+ width: 120px; 
+ position: relative;
+ left: 40px;
+ cursor: pointer;
+ text-decoration: none;
+ color: white;
+ top: 30px;
+}
+nav{
+	background-color: black;
+	height: 80px;
+}
+section{
+	background-color: white;
+	height: 500px;
+	width: 1150px;
+	position: relative;
+	top: 330px;
+	left: 40px;
+}
+footer{
+	height: 120px;
+	background-color: black;
+	position: relative;
+	top: 370px;
+}
+.button{
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background: #463FD1;
+	position: relative;
+	top: 180px;
+	left: 330px;
+	width: 550px;
+	height: 70px;
+	font-size: 24px;
+}
+.button:hover{
+	background-color: 46BE07;
+	cursor: pointer;
+}
+.text {
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+.h1{
+	text-align: center;
+}
